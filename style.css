@@ -1,0 +1,394 @@
+
+body{
+    background-color: #000000 !important;
+}
+
+@media(min-width:769px){
+    
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       border-radius: 5px;
+       width: 100%;
+       position: sticky;
+       top: 0px;
+       background-color: #000000;
+       
+    }
+   .middle{
+    margin-left: 10px;
+   }
+    .container ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        color: aliceblue;
+        background-color: #000000;
+        
+    }
+     a{
+        text-decoration: none;
+     }
+    
+    .container .end{
+        height: 30px;
+        width: 100px;
+        margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    
+    .bgimg{
+        background-image: url(pizza1.png);
+        height: 100%;
+        background-position: center;
+        
+        background-size: cover;
+        width: 100vw;
+    
+    }
+    .bgtext{
+        padding: 50px;
+        color: aliceblue;
+    }
+    .container-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        margin: 40px 10px;
+        
+    }
+    .box{
+        color: aliceblue;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .box img{
+        height: 100px;
+
+       
+    
+    }
+    .box-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 10px;
+        
+        font-size: small;
+    }
+    .box .gold{
+        color: gold;
+    }
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo{
+    color: aliceblue;
+}
+.footer-container{
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 10px;
+ margin: 40px 20px;
+    
+}
+.div1,.div2{
+    color: aliceblue;
+}
+.div1 img{
+    height: 30px;
+}
+.div2{
+    height: 10vh;
+}
+.end-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 50px 20px;
+
+}
+.div3{
+    color: aliceblue;
+    
+}
+.div3 img{
+    height: 6vh;
+}
+.div4{
+    color: aliceblue;
+    
+}
+.div4 img{
+    height: 3vh;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    padding: 0px 30px;
+    
+}
+.aboutus img{
+    height: 70%;
+    width: 80%;
+}
+.hands h3,p{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.hands{
+    
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+h3 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.hrline{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+} 
+   
+
+@media(max-width:769px){
+    .container{
+        
+       
+        align-items: center;
+       
+        margin: 1px 10px;
+        padding: 5px;
+        position: sticky;
+       margin-top: 1px;
+      
+       border-radius: 5px;
+       width: 100%;
+    }
+    .container ul{
+        list-style-type: none;
+        
+        justify-content: space-between;
+        width: 500px;
+        color: aliceblue;
+        
+    }
+    li a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .logo{
+        color: aliceblue;
+    }
+    .container .end{
+        
+    display: none;
+    
+   
+    
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+     }
+     .bgimg{
+        background-image: url(pizza1.png);
+        height: 100%;
+        background-position: center;
+        
+        background-size: cover;
+        width: 100%;
+        border-radius: 5px ;
+    
+    }
+    .bgtext{
+        
+        padding: 50px;
+        color: aliceblue;
+    }
+    /* paste here for min */
+    .container-2{
+        display: grid;
+        grid-template-columns: 1fr ;
+        row-gap: 50px;
+        
+    }
+    .box{
+        color: aliceblue;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .box img{
+        height: 100px;
+    
+    }
+    .box-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 10px;
+        
+        font-size: small;
+    }
+    .box .gold{
+        color: gold;
+    }
+    .footer{
+        display: flex;
+
+    }
+    .end-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px;
+        margin: 50px 20px;
+    
+    }
+    .div3{
+        color: aliceblue;
+        
+    }
+    .div3 img{
+        height: 3vh;
+    }
+    .div4{
+        color: aliceblue;
+        
+    }
+    .div4 img{
+        height: 3vh;
+    }
+    .insta{
+        display: block;
+        align-self: center;
+    }
+    .aboutus{
+        display: flex;
+       flex-direction: row;
+        height: 400px;
+        align-items: center;
+        padding: 0px 30px;
+        
+    }
+    .aboutus img{
+        height: 70%;
+        width: 80%;
+    }
+    .hands h3,p{
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+    }
+    .hands{
+        
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+    h3 {
+        color: aliceblue;
+        text-align: center;
+        font-size: 30px;
+        
+    }
+    .hrline{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* below 769 */
+}
+.all{
+    height: 100px;
+}
+
+
+
+
+
+
+/* GRID */
+
+
+/* carousel*/
+
+  .cas{
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: space-between;
+     color: white;
+     padding-bottom: 10px;
+    }
+    #ca::after{
+     content: " ";
+ position:absolute;
+ display:block;
+  left: 35%; 
+ width: 30%;
+ height: 4px;
+ background-color:red;
+    }
+    .Gallary{
+        display: flex;
+         flex-direction: column;
+         text-align: center;
+         justify-content: space-between;
+         color: white;
+         padding-bottom: 10px;
+        }
+        #gallary::after{
+         content: " ";
+     position:absolute;
+     display:block;
+      left: 35%; 
+     width: 30%;
+     height: 4px;
+    
+    
+     background-color:red;
+        }
+        #cad{
+            background-color: black;
+            padding:5px;
+        
+        }
+    #ims{
+        padding-bottom: 10px;
+    }
+
+    iframe{
+    height: 150%;
+    width: 100%;
+}
+
+    
+    
+    
+  
+
+
+
+
+
+
